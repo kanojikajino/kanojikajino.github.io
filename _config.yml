@@ -29,6 +29,12 @@ plugins:
   - jekyll-feed
 comments: true
 
+header_pages:
+  - about.md
+  - lectures.md
+collections:
+  lectures:
+    output: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
