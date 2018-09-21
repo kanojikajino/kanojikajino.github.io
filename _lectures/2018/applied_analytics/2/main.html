@@ -63,7 +63,7 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 <style type="text/css">
 .reveal
 {
-    font-size: 18px;
+    font-size: 24px;
     font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-family: "Ricty", monospace;
 }
@@ -84,7 +84,7 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 {
     background-color: transparent;
     color: black;
-    font-size: 60%;
+    font-size: 80%;
 }
 
 /* table */
@@ -12334,7 +12334,7 @@ $\hat{\theta} = \arg\min_{\theta\in\Theta}\mathcal{L}(\theta; \mathcal{D})$
 </ul>
 </li>
 </ul>
-<p>としたとき、 $\hat\mu$ を求めよ。</p>
+<p>としたとき、最尤推定量 $\hat\mu$ を求めよ。</p>
 
 </div>
 </div>
@@ -12356,8 +12356,8 @@ $$\mathcal{L}(\mu; \mathcal{D}) = \sum_{n=1}^{N}\dfrac{(x_n-\mu)^2}{2} + C$$</p>
 <p>$$
 \begin{align*}
 \sum_{n=1}^N \dfrac{(x_n - \mu)^2}{2} &amp;= \dfrac{1}{2} \left(N\mu^2 - 2 \mu\sum_{n=1}^{N}x_n + \sum_{n=1}^{N}x_n^2\right)\\
-&amp;= \dfrac{1}{2N} \left(\mu^2 - 2 \mu \frac{1}{N}\sum_{n=1}^N x_n + \frac{1}{N} \sum_{n=1}^{N} x_n^2\right)\\
-&amp;= \dfrac{1}{2N} \left(\mu - \frac{1}{N} \sum_{n=1}^N x_n\right)^2 + C
+&amp;= \dfrac{N}{2} \left(\mu^2 - 2 \mu \frac{1}{N}\sum_{n=1}^N x_n + \frac{1}{N} \sum_{n=1}^{N} x_n^2\right)\\
+&amp;= \dfrac{N}{2} \left(\mu - \frac{1}{N} \sum_{n=1}^N x_n\right)^2 + C
 \end{align*}
 $$
 最後の$C$は$\mu$によらない定数</p>
@@ -12373,7 +12373,7 @@ $$
 $$
 \begin{align*}
 \hat\mu &amp;= \arg\min_{\mu\in\mathbb{R}} \mathcal{L}(\mu; \mathcal{D}) \\
-&amp;= \arg\min_{\mu\in\mathbb{R}} \dfrac{1}{2N} \left(\mu - \frac{1}{N} \sum_{n=1}^N x_n\right)^2\\
+&amp;= \arg\min_{\mu\in\mathbb{R}} \dfrac{N}{2} \left(\mu - \frac{1}{N} \sum_{n=1}^N x_n\right)^2\\
 &amp;= \frac{1}{N} \sum_{n=1}^N x_n
 \end{align*}
 $$</p>
