@@ -7,12 +7,18 @@ permalink: /lectures/2018/applied_analytics
 
 講義で使用した Jupyter notebook は [ここ](https://github.com/kanojikajino/lecture) にあります。
 
-# 第一回（自己紹介、講義の概要、PythonとSlackの準備）
+# 第1回（自己紹介、講義の概要、PythonとSlackの準備）
 <center>
 <iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="596"  mozallowfullscreen="true" src="/lectures/2018/applied_analytics/1/main.html" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="800"></iframe>
 </center>
 
-# 第二回（機械学習・人工知能概論）
+# 第2回（機械学習・人工知能概論）
 <center>
 <iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="596"  mozallowfullscreen="true" src="/lectures/2018/applied_analytics/2/main.html" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="800"></iframe>
+</center>
+
+# 第3回（Python 入門）
+※FizzBuzz までやったので、次回は関数から
+<center>
+<iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="596"  mozallowfullscreen="true" src="/lectures/2018/applied_analytics/3/main.html" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="800"></iframe>
 </center>
