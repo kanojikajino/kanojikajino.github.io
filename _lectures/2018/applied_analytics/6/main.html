@@ -98,7 +98,6 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 .reveal hr {
     color: black;
 }
-
     /*!
 *
 * Twitter Bootstrap
@@ -12182,10 +12181,8 @@ $$</p>
 
 
 
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,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
-"
->
+<div class="output_text output_subarea ">
+<pre>&lt;matplotlib.figure.Figure at 0x10907de10&gt;</pre>
 </div>
 
 </div>
@@ -12800,14 +12797,14 @@ $$</li>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#35506;&#38988;">&#35506;&#38988;<a class="anchor-link" href="#&#35506;&#38988;">&#182;</a></h1><p>正規分布クラスを実装せよ（以前の資料を見ずに）</p>
+<h1 id="&#35506;&#38988;">&#35506;&#38988;<a class="anchor-link" href="#&#35506;&#38988;">&#182;</a></h1><p>正規分布クラスを実装せよ（以前の資料からコピペでOK）</p>
 
 </div>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -12892,82 +12889,41 @@ $$</li>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="&#35506;&#38988;">&#35506;&#38988;<a class="anchor-link" href="#&#35506;&#38988;">&#182;</a></h1><ul>
 <li>GMM クラスの <code>__init__</code> を書いてみよう</li>
-<li>欲しいメソッドの名前、引数、返り値を考えてみよう</li>
 </ul>
 
 </div>
 </div>
-</div></section></section><section><section>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">GMM</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dim</span><span class="p">,</span> <span class="n">num_components</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">dim</span> <span class="o">=</span> <span class="n">dim</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span> <span class="o">=</span> <span class="n">num_components</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">)</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">weight_list</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Gaussian</span><span class="p">(</span><span class="n">dim</span><span class="p">))</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">weight_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mf">1.0</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">)</span>
-    
-    <span class="k">def</span> <span class="nf">fit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">eps</span><span class="o">=</span><span class="mf">1e-8</span><span class="p">):</span>
-        <span class="n">sample_size</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-        <span class="n">converge</span> <span class="o">=</span> <span class="kc">False</span>
-        <span class="n">old_ll</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span>
-        <span class="n">new_ll</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span>
-        <span class="k">while</span> <span class="ow">not</span> <span class="n">converge</span><span class="p">:</span>
-            <span class="n">posterior</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">e_step</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">m_step</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">posterior</span><span class="p">)</span>
-            <span class="n">new_ll</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">calc_ll</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
-            <span class="k">if</span> <span class="n">new_ll</span> <span class="o">&lt;</span> <span class="n">old_ll</span><span class="p">:</span>
-                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;likelihood decreases!&#39;</span><span class="p">)</span>
-            <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">old_ll</span> <span class="o">-</span> <span class="n">new_ll</span><span class="p">)</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">new_ll</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">eps</span><span class="p">:</span>
-                <span class="n">converge</span> <span class="o">=</span> <span class="kc">True</span>
-            <span class="n">old_ll</span> <span class="o">=</span> <span class="n">new_ll</span>
-        <span class="k">return</span> <span class="n">posterior</span>
-    
-    <span class="k">def</span> <span class="nf">e_step</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
-        <span class="n">posterior</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">))</span>
-        <span class="k">for</span> <span class="n">each_component</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
-            <span class="n">posterior</span><span class="p">[:,</span> <span class="n">each_component</span><span class="p">]</span> \
-               <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">log_pdf</span><span class="p">(</span><span class="n">X</span><span class="p">))</span>
-        <span class="n">posterior</span> <span class="o">=</span> <span class="n">posterior</span> <span class="o">/</span> <span class="n">posterior</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">posterior</span>
-    
-    <span class="k">def</span> <span class="nf">m_step</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">posterior</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">weight_list</span> <span class="o">=</span> <span class="n">posterior</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-        <span class="k">for</span> <span class="n">each_component</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">set_mean</span><span class="p">(</span><span class="n">posterior</span><span class="p">[:,</span> <span class="n">each_component</span><span class="p">]</span> <span class="o">@</span> <span class="n">X</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">])</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">set_cov</span><span class="p">(</span>
-                <span class="p">(</span><span class="n">posterior</span><span class="p">[:,</span> <span class="n">each_component</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">X</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span><span class="o">.</span><span class="n">T</span><span class="p">)</span> \
-                <span class="o">@</span> <span class="p">(</span><span class="n">X</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">])</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">weight_list</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight_list</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">weight_list</span><span class="p">)</span>
-    
-    <span class="k">def</span> <span class="nf">calc_ll</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
-        <span class="n">ll</span> <span class="o">=</span> <span class="mi">0</span>
-        <span class="k">for</span> <span class="n">each_component</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
-            <span class="n">ll</span> <span class="o">+=</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">log_pdf</span><span class="p">(</span><span class="n">X</span><span class="p">))</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">ll</span><span class="p">)</span>
-            
 </pre></div>
 
 </div>
 </div>
 </div>
 
-</div>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">gauss</span> <span class="o">=</span> <span class="n">Gaussian</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-<span class="n">gauss</span><span class="o">.</span><span class="n">mean</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-<span class="c1">#gauss.cov = 2 * gauss.cov</span>
-<span class="n">gauss</span><span class="o">.</span><span class="n">log_pdf</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]]))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># gmm のオブジェクトができた</span>
+<span class="n">gmm</span> <span class="o">=</span> <span class="n">GMM</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">each_gaussian</span> <span class="ow">in</span> <span class="n">gmm</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">each_gaussian</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">gmm</span><span class="o">.</span><span class="n">weight</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12980,13 +12936,195 @@ $$</li>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[10]:</div>
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[ 0.11684931 -1.71658838]
+[-1.10708776  0.25183766]
+[-1.24486871  0.55898262]
+[ 1.77706673 -1.59593316]
+[ 1.5407428  -0.58973061]
+[-1.81424689  0.16981966]
+[-0.12951037  0.52775457]
+[ 0.24461285 -0.3235077 ]
+[1.2561859  0.75503971]
+[ 0.15138818 -0.42148386]
+[0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>以降、EMアルゴリズムでパラメタ推定をする <code>fit</code> を書きたい</p>
+<ul>
+<li><code>log_pdf</code>: 現在のパラメタを用いてサンプルの対数尤度を計算するメソッド</li>
+<li><code>e_step</code>: Eステップを実行するメソッド</li>
+<li><code>m_step</code>: Mステップを実行するメソッド</li>
+</ul>
+<p>の3つを実装し、これらを組み合わせて <code>fit</code> を書く</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#35506;&#38988;">&#35506;&#38988;<a class="anchor-link" href="#&#35506;&#38988;">&#182;</a></h1><ul>
+<li>サンプルの対数尤度を計算するメソッド <code>log_pdf</code> を <code>GMM</code> に実装せよ<ul>
+<li>引数: <code>X</code>: サンプルサイズ$\times$次元の行列</li>
+<li>返り値: $\begin{bmatrix}\log p(x_1; \theta) &amp; \dots &amp; \log p(x_N; \theta)\end{bmatrix}$ ($\theta$は現在の内部状態を用いる)
+$$
+p(x_n; \theta) = \sum_{k=1}^K \pi_{k} \mathcal{N}(x_n; \mu_k, \Sigma_k)
+$$</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">GMM</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dim</span><span class="p">,</span> <span class="n">num_components</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span> <span class="n">dim</span> <span class="o">=</span> <span class="n">dim</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span> <span class="o">=</span> <span class="n">num_components</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">)</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span>
+        <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Gaussian</span><span class="p">(</span><span class="n">dim</span><span class="p">))</span>
+            
+    <span class="k">def</span> <span class="nf">log_pdf</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+        <span class="n">sample_size</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">likelihood</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">sample_size</span><span class="p">)</span> <span class="c1"># 各データの尤度を計算する</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        ここで現在の内部状態での likelihood を計算する</span>
+<span class="sd">        </span>
+<span class="sd">        ** ヒント **</span>
+<span class="sd">        self.gaussian_list の各要素は Gaussian クラスのオブジェクト</span>
+<span class="sd">        各データの対数尤度を計算する log_pdf という命令が実装してあった</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">likelihood</span><span class="p">)</span> <span class="c1"># 対数尤度が欲しいので対数をとる</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#12498;&#12531;&#12488;">&#12498;&#12531;&#12488;<a class="anchor-link" href="#&#12498;&#12531;&#12488;">&#182;</a></h1><ul>
+<li><code>self.gaussian_list[0].log_pdf(X)</code> はサンプル <code>X</code> のデータそれぞれに対する対数尤度を計算する<ul>
+<li><code>X</code> が <code>sample_size</code> x <code>dim</code> とすると、返り値は長さ <code>sample_size</code> の配列</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><code>self.weight[0]</code> は $p(z=0; \theta)$ に対応する</li>
+<li><code>self.weight[0] * np.exp(self.gaussian_list[0].log_pdf(X))</code> は <code>np.exp(self.gaussian_list[0].log_pdf(X))</code> の各要素に <code>self.weight[0]</code> を掛けた値を返す<ul>
+<li><code>スカラー * 配列</code> と書くと、配列の各要素にスカラーを掛けてくれる（<code>numpy</code> の記法）</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">GMM</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dim</span><span class="p">,</span> <span class="n">num_components</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span> <span class="n">dim</span> <span class="o">=</span> <span class="n">dim</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span> <span class="o">=</span> <span class="n">num_components</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">)</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span>
+        <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Gaussian</span><span class="p">(</span><span class="n">dim</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">log_pdf</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+        <span class="n">sample_size</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">likelihood</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">sample_size</span><span class="p">)</span> <span class="c1"># 各データの尤度を計算する</span>
+        <span class="k">for</span> <span class="n">each_component</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="n">likelihood</span> <span class="o">=</span> <span class="n">likelihood</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">log_pdf</span><span class="p">(</span><span class="n">X</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">likelihood</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">gmm</span> <span class="o">=</span> <span class="n">GMM</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="n">gmm</span><span class="o">.</span><span class="n">log_pdf</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span> <span class="c1"># とりあえず何か計算はできている</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[8]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([-4.33787707])</pre>
+<pre>array([-2.78514385, -2.96952946, -3.46088844, -3.81387769, -2.45415219,
+       -4.0092061 , -3.67552912, -3.83366615, -2.53445331, -3.74449755,
+       -2.6104049 , -2.41452569, -2.4230176 , -2.81333828, -3.37597623,
+       -2.78093397, -3.01763294, -3.26867491, -2.408466  , -2.44758434,
+       -2.93138233, -2.65955736, -2.56725667, -3.63483237, -3.62195973,
+       -2.99269766, -3.13356357, -3.6967527 , -3.00763763, -4.16354183,
+       -2.66662783, -3.12049899, -2.99516738, -2.93773605, -2.55619206,
+       -3.58616923, -2.91703624, -3.30964588, -2.39991612, -3.35450761,
+       -2.65045314, -4.01245388, -3.04019383, -4.23433282, -2.99336927,
+       -2.74891084, -2.94012484, -2.82226163, -2.6190409 , -2.66019962,
+       -2.81912315, -6.57761508, -2.88257211, -2.54466193, -2.46019745,
+       -2.50746067, -2.55682163, -2.50912637, -3.06287105, -3.67639262,
+       -2.91834628, -2.58114342, -3.9217804 , -2.66797509, -3.2508557 ,
+       -3.24984471, -2.42023258, -3.05347674, -2.89008328, -2.70997084,
+       -4.26476596, -2.96776401, -3.31425977, -2.64371565, -3.79660247,
+       -2.6650101 , -3.39986012, -2.98218653, -3.41592214, -3.41550022,
+       -2.50111109, -3.42796452, -2.4727389 , -2.56389171, -2.51620327,
+       -2.99860948, -4.60361547, -3.08131667, -3.03534468, -3.37597112,
+       -2.84828843, -3.09092155, -4.03144124, -2.43948881, -2.77699682,
+       -2.75943703, -3.13733596, -2.92244085, -2.90269501, -2.58821306])</pre>
 </div>
 
 </div>
@@ -12994,10 +13132,250 @@ $$</li>
 </div>
 </div>
 
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#35506;&#38988;">&#35506;&#38988;<a class="anchor-link" href="#&#35506;&#38988;">&#182;</a></h1><ul>
+<li>Eステップを実行するメソッド <code>e_step</code> を実装せよ<ul>
+<li>引数: データ <code>X</code>: <code>sample_size</code> $\times$ <code>dim</code> の配列</li>
+<li>出力: $q(z_n)$<ul>
+<li>どのような形式で出力すべきか？</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>$q(z_n)$ は $K$ 面サイコロだったので、$K$面サイコロの確率分布をデータの数だけ出力すれば良さそう<ul>
+<li>$K=$ <code>n_components</code></li>
+</ul>
+</li>
+<li><code>posterior</code>: <code>sample_size</code> $\times$ <code>n_components</code> の配列として出力</li>
+<li><code>posterior[n, k]</code> = $q(z_n=k)$</li>
+</ul>
+
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>E-step: for each $n=1,\dots,N, k=1,\dots,K$,
+$$q(z_n=k)\leftarrow \dfrac{\pi_k \mathcal{N}(x_n; \mu_k, \Sigma_k)}{\sum_{k=1}^K \pi_k \mathcal{N}(x_n; \mu_k, \Sigma_k)}$$</p>
+
+</div>
+</div>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">GMM</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dim</span><span class="p">,</span> <span class="n">num_components</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dim</span> <span class="o">=</span> <span class="n">dim</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span> <span class="o">=</span> <span class="n">num_components</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">)</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span>
+        <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Gaussian</span><span class="p">(</span><span class="n">dim</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">log_pdf</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+        <span class="n">sample_size</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">likelihood</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">sample_size</span><span class="p">)</span> <span class="c1"># 各データの尤度を計算する</span>
+        <span class="k">for</span> <span class="n">each_component</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="n">likelihood</span> <span class="o">=</span> <span class="n">likelihood</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">log_pdf</span><span class="p">(</span><span class="n">X</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">likelihood</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">e_step</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+        <span class="n">sample_size</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">posterior</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">sample_size</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">))</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        ここを埋める</span>
+<span class="sd">        </span>
+<span class="sd">        ** ヒント **</span>
+<span class="sd">        各 n について、分母は共通</span>
+<span class="sd">        1. 分子を先に計算して posterior に入れてしまう</span>
+<span class="sd">        2. posterior[n, :].sum() は分母と等しくなる</span>
+<span class="sd">        3. posterior[n, :] = posterior[n, :] / posterior[n, :].sum() とすれば良さそう</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">return</span> <span class="n">posterior</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">GMM</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dim</span><span class="p">,</span> <span class="n">num_components</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dim</span> <span class="o">=</span> <span class="n">dim</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span> <span class="o">=</span> <span class="n">num_components</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">)</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span>
+        <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Gaussian</span><span class="p">(</span><span class="n">dim</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">log_pdf</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+        <span class="n">sample_size</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">likelihood</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">sample_size</span><span class="p">)</span> <span class="c1"># 各データの尤度を計算する</span>
+        <span class="k">for</span> <span class="n">each_component</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="n">likelihood</span> <span class="o">=</span> <span class="n">likelihood</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">log_pdf</span><span class="p">(</span><span class="n">X</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">likelihood</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">e_step</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+        <span class="n">sample_size</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">posterior</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">sample_size</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">))</span>
+        <span class="c1"># 各コンポーネントで対数尤度が計算できるので、それを利用</span>
+        <span class="k">for</span> <span class="n">each_component</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="n">posterior</span><span class="p">[:,</span> <span class="n">each_component</span><span class="p">]</span> \
+               <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">log_pdf</span><span class="p">(</span><span class="n">X</span><span class="p">))</span>
+        
+        <span class="c1"># まとめて正規化しているが、 for 文でやってもOK（遅くなるけど）</span>
+        <span class="n">posterior</span> <span class="o">=</span> <span class="n">posterior</span> <span class="o">/</span> <span class="n">posterior</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">posterior</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># q はデータがどちらのコンポーネントに近いかを表しているので、</span>
+<span class="c1"># そんな感じの結果になって欲しい</span>
+<span class="n">gmm</span> <span class="o">=</span> <span class="n">GMM</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">gmm</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">gmm</span><span class="o">.</span><span class="n">e_step</span><span class="p">(</span><span class="n">X</span><span class="p">))</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">gmm</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">gmm</span><span class="o">.</span><span class="n">e_step</span><span class="p">(</span><span class="n">X</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[[0.96525446 0.03474554]]
+[[0.03474554 0.96525446]]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#35506;&#38988;">&#35506;&#38988;<a class="anchor-link" href="#&#35506;&#38988;">&#182;</a></h1><ul>
+<li>Mステップを実行するメソッド <code>m_step</code> を実装せよ<ul>
+<li>引数: データ <code>X</code>: <code>sample_size</code> $\times$ <code>dim</code> の配列</li>
+<li>出力: $q(z_n)$<ul>
+<li>どのような形式で出力すべきか？</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">GMM</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dim</span><span class="p">,</span> <span class="n">num_components</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dim</span> <span class="o">=</span> <span class="n">dim</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span> <span class="o">=</span> <span class="n">num_components</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">)</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span>
+        <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Gaussian</span><span class="p">(</span><span class="n">dim</span><span class="p">))</span>
+    
+    <span class="k">def</span> <span class="nf">fit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">eps</span><span class="o">=</span><span class="mf">1e-8</span><span class="p">):</span>
+        <span class="n">sample_size</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">converge</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="n">old_ll</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span>
+        <span class="n">new_ll</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span>
+        <span class="k">while</span> <span class="ow">not</span> <span class="n">converge</span><span class="p">:</span>
+            <span class="n">posterior</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">e_step</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">m_step</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">posterior</span><span class="p">)</span>
+            <span class="n">new_ll</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">log_pdf</span><span class="p">(</span><span class="n">X</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+            <span class="k">if</span> <span class="n">new_ll</span> <span class="o">&lt;</span> <span class="n">old_ll</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;likelihood decreases!&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">old_ll</span> <span class="o">-</span> <span class="n">new_ll</span><span class="p">)</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">new_ll</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">eps</span><span class="p">:</span>
+                <span class="n">converge</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="n">old_ll</span> <span class="o">=</span> <span class="n">new_ll</span>
+        <span class="k">return</span> <span class="n">posterior</span>
+    
+    <span class="k">def</span> <span class="nf">e_step</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+        <span class="n">posterior</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">))</span>
+        <span class="k">for</span> <span class="n">each_component</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="n">posterior</span><span class="p">[:,</span> <span class="n">each_component</span><span class="p">]</span> \
+               <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">log_pdf</span><span class="p">(</span><span class="n">X</span><span class="p">))</span>
+        <span class="n">posterior</span> <span class="o">=</span> <span class="n">posterior</span> <span class="o">/</span> <span class="n">posterior</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">posterior</span>
+    
+    <span class="k">def</span> <span class="nf">m_step</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">posterior</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">posterior</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">each_component</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">set_mean</span><span class="p">(</span><span class="n">posterior</span><span class="p">[:,</span> <span class="n">each_component</span><span class="p">]</span> <span class="o">@</span> <span class="n">X</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight</span><span class="p">[</span><span class="n">each_component</span><span class="p">])</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">set_cov</span><span class="p">(</span>
+                <span class="p">(</span><span class="n">posterior</span><span class="p">[:,</span> <span class="n">each_component</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">X</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span><span class="o">.</span><span class="n">T</span><span class="p">)</span> \
+                <span class="o">@</span> <span class="p">(</span><span class="n">X</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight</span><span class="p">[</span><span class="n">each_component</span><span class="p">])</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">weight</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">log_pdf</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+        <span class="n">sample_size</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">likelihood</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">sample_size</span><span class="p">)</span> <span class="c1"># 各データの尤度を計算する</span>
+        <span class="k">for</span> <span class="n">each_component</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_components</span><span class="p">):</span>
+            <span class="n">likelihood</span> <span class="o">=</span> <span class="n">likelihood</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">weight</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="n">each_component</span><span class="p">]</span><span class="o">.</span><span class="n">log_pdf</span><span class="p">(</span><span class="n">X</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">likelihood</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">((</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">+</span> <span class="mi">3</span><span class="p">))</span>
@@ -13009,10 +13387,10 @@ $$</li>
 </div>
 </div>
 
-</div>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">gmm</span><span class="o">.</span><span class="n">gaussian_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span>
@@ -13033,8 +13411,8 @@ $$</li>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[3.11790562 3.04431015 3.04419792]
-[ 0.13746864  0.00059121 -0.05418422]
+<pre>[-0.15634628  0.0826993   0.04664785]
+[2.99283013 3.03949123 2.96590465]
 </pre>
 </div>
 </div>
@@ -13042,10 +13420,10 @@ $$</li>
 </div>
 </div>
 
-</div>
+</div></div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">posterior</span>
@@ -13061,212 +13439,212 @@ $$</li>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[18]:</div>
+<div class="prompt output_prompt">Out[15]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[4.09072857e-11, 1.00000000e+00],
-       [5.63739049e-10, 9.99999999e-01],
-       [6.80155533e-11, 1.00000000e+00],
-       [1.16396889e-05, 9.99988360e-01],
-       [4.11536044e-07, 9.99999588e-01],
-       [4.63686152e-07, 9.99999536e-01],
-       [1.07746790e-11, 1.00000000e+00],
-       [5.09046576e-07, 9.99999491e-01],
-       [6.20235191e-06, 9.99993798e-01],
-       [1.46015318e-07, 9.99999854e-01],
-       [5.68760223e-10, 9.99999999e-01],
-       [1.61793892e-09, 9.99999998e-01],
-       [1.09632815e-01, 8.90367185e-01],
-       [1.62584274e-06, 9.99998374e-01],
-       [2.44833810e-08, 9.99999976e-01],
-       [2.50065684e-09, 9.99999997e-01],
-       [9.12510139e-07, 9.99999087e-01],
-       [5.11231146e-03, 9.94887689e-01],
-       [1.34971590e-06, 9.99998650e-01],
-       [3.45672231e-10, 1.00000000e+00],
-       [4.44988939e-14, 1.00000000e+00],
-       [1.37393870e-12, 1.00000000e+00],
-       [3.99512479e-12, 1.00000000e+00],
-       [4.51192875e-06, 9.99995488e-01],
-       [1.00606059e-07, 9.99999899e-01],
-       [3.06039890e-09, 9.99999997e-01],
-       [1.11089428e-06, 9.99998889e-01],
-       [2.96943814e-11, 1.00000000e+00],
-       [1.13676862e-09, 9.99999999e-01],
-       [1.21162041e-12, 1.00000000e+00],
-       [4.06069797e-08, 9.99999959e-01],
-       [1.18730549e-11, 1.00000000e+00],
-       [1.86068791e-07, 9.99999814e-01],
-       [1.88777594e-09, 9.99999998e-01],
-       [3.10872990e-10, 1.00000000e+00],
-       [2.00296982e-10, 1.00000000e+00],
-       [1.09728026e-08, 9.99999989e-01],
-       [2.82233987e-08, 9.99999972e-01],
-       [2.86761673e-07, 9.99999713e-01],
-       [8.40390956e-06, 9.99991596e-01],
-       [2.37590891e-09, 9.99999998e-01],
-       [8.34680155e-11, 1.00000000e+00],
-       [3.77116984e-08, 9.99999962e-01],
-       [8.54068607e-08, 9.99999915e-01],
-       [3.26871765e-06, 9.99996731e-01],
-       [2.41953692e-06, 9.99997580e-01],
-       [2.30611869e-02, 9.76938813e-01],
-       [1.00834964e-10, 1.00000000e+00],
-       [3.87877384e-12, 1.00000000e+00],
-       [1.21305755e-08, 9.99999988e-01],
-       [8.53748798e-05, 9.99914625e-01],
-       [2.39548126e-04, 9.99760452e-01],
-       [1.22635161e-04, 9.99877365e-01],
-       [1.60352694e-09, 9.99999998e-01],
-       [4.09700758e-06, 9.99995903e-01],
-       [4.58143805e-08, 9.99999954e-01],
-       [2.80202153e-08, 9.99999972e-01],
-       [5.77738676e-05, 9.99942226e-01],
-       [4.24929059e-09, 9.99999996e-01],
-       [1.52355666e-03, 9.98476443e-01],
-       [3.43445123e-07, 9.99999657e-01],
-       [1.45412625e-03, 9.98545874e-01],
-       [1.44873342e-10, 1.00000000e+00],
-       [1.53746950e-08, 9.99999985e-01],
-       [1.04623268e-08, 9.99999990e-01],
-       [5.89585177e-07, 9.99999410e-01],
-       [3.75294431e-06, 9.99996247e-01],
-       [6.32191961e-09, 9.99999994e-01],
-       [1.09586389e-07, 9.99999890e-01],
-       [7.59571673e-11, 1.00000000e+00],
-       [6.35310064e-07, 9.99999365e-01],
-       [1.85950431e-07, 9.99999814e-01],
-       [1.08699390e-10, 1.00000000e+00],
-       [6.01041072e-06, 9.99993990e-01],
-       [7.27978513e-07, 9.99999272e-01],
-       [3.48599756e-12, 1.00000000e+00],
-       [7.43024857e-06, 9.99992570e-01],
-       [2.42679337e-10, 1.00000000e+00],
-       [1.16005703e-09, 9.99999999e-01],
-       [8.04104993e-09, 9.99999992e-01],
-       [1.67754473e-09, 9.99999998e-01],
-       [5.98238451e-06, 9.99994018e-01],
-       [5.30157946e-05, 9.99946984e-01],
-       [2.24525434e-07, 9.99999775e-01],
-       [6.87561353e-03, 9.93124386e-01],
-       [3.08037713e-08, 9.99999969e-01],
-       [3.54914308e-11, 1.00000000e+00],
-       [1.23983410e-07, 9.99999876e-01],
-       [1.33327576e-06, 9.99998667e-01],
-       [1.41033382e-08, 9.99999986e-01],
-       [1.30662353e-09, 9.99999999e-01],
-       [1.46901526e-07, 9.99999853e-01],
-       [1.10354911e-07, 9.99999890e-01],
-       [2.00633351e-12, 1.00000000e+00],
-       [1.54498331e-10, 1.00000000e+00],
-       [4.34702127e-08, 9.99999957e-01],
-       [1.10752483e-09, 9.99999999e-01],
-       [1.38787054e-09, 9.99999999e-01],
-       [3.01704654e-12, 1.00000000e+00],
-       [2.95670135e-08, 9.99999970e-01],
-       [9.97357005e-01, 2.64299505e-03],
-       [1.00000000e+00, 1.98988234e-10],
-       [1.00000000e+00, 4.34988645e-10],
-       [9.99999852e-01, 1.48289513e-07],
-       [9.99999970e-01, 3.03074100e-08],
-       [9.99999997e-01, 2.54352769e-09],
-       [1.00000000e+00, 5.84582441e-11],
-       [9.99999981e-01, 1.85102728e-08],
-       [1.00000000e+00, 5.75338017e-15],
-       [1.00000000e+00, 1.10602932e-10],
-       [9.99999997e-01, 2.89804774e-09],
-       [9.99999999e-01, 1.05035454e-09],
-       [9.99999993e-01, 6.56733356e-09],
-       [9.98748583e-01, 1.25141673e-03],
-       [1.00000000e+00, 3.61183645e-10],
-       [9.99999977e-01, 2.31730624e-08],
-       [9.99999892e-01, 1.08425651e-07],
-       [9.99998673e-01, 1.32663043e-06],
-       [9.99999989e-01, 1.06685466e-08],
-       [9.99999999e-01, 1.19098083e-09],
-       [9.99997943e-01, 2.05724860e-06],
-       [1.00000000e+00, 1.47985802e-12],
-       [1.00000000e+00, 1.99827020e-12],
-       [9.99999974e-01, 2.56738432e-08],
-       [1.00000000e+00, 1.30830805e-12],
-       [1.00000000e+00, 3.55731871e-12],
-       [9.99999997e-01, 2.55601175e-09],
-       [9.99999798e-01, 2.02453104e-07],
-       [1.00000000e+00, 5.62563941e-12],
-       [9.99999999e-01, 5.94575888e-10],
-       [1.00000000e+00, 1.28606897e-10],
-       [9.99838581e-01, 1.61419328e-04],
-       [1.00000000e+00, 2.51430371e-12],
-       [9.99999999e-01, 1.11664959e-09],
-       [1.00000000e+00, 2.26306422e-10],
-       [9.99999989e-01, 1.07559860e-08],
-       [9.99772794e-01, 2.27206164e-04],
-       [9.99999993e-01, 6.96896417e-09],
-       [9.99998930e-01, 1.07048797e-06],
-       [1.00000000e+00, 3.81690430e-10],
-       [1.00000000e+00, 3.58868319e-10],
-       [9.99999996e-01, 3.79244379e-09],
-       [9.99999946e-01, 5.41979487e-08],
-       [9.99999548e-01, 4.52164020e-07],
-       [1.00000000e+00, 4.27688399e-10],
-       [9.99999999e-01, 1.01717455e-09],
-       [9.99999999e-01, 9.45222473e-10],
-       [1.00000000e+00, 6.71088833e-12],
-       [9.99994100e-01, 5.89968506e-06],
-       [9.99981792e-01, 1.82080787e-05],
-       [1.00000000e+00, 2.43319366e-13],
-       [1.00000000e+00, 1.32092051e-10],
-       [9.99999968e-01, 3.23678634e-08],
-       [9.99948890e-01, 5.11096548e-05],
-       [1.00000000e+00, 3.38456869e-10],
-       [9.99969601e-01, 3.03988547e-05],
-       [9.99999426e-01, 5.73868731e-07],
-       [1.00000000e+00, 4.60873405e-10],
-       [9.99998379e-01, 1.62099043e-06],
-       [1.00000000e+00, 2.04087552e-14],
-       [1.00000000e+00, 2.80656924e-10],
-       [9.99999991e-01, 8.97014112e-09],
-       [9.50528536e-01, 4.94714638e-02],
-       [9.99999918e-01, 8.16384614e-08],
-       [9.99999996e-01, 4.36624006e-09],
-       [9.99996411e-01, 3.58857622e-06],
-       [1.00000000e+00, 5.89630488e-12],
-       [9.99973216e-01, 2.67835896e-05],
-       [1.00000000e+00, 2.12854510e-10],
-       [9.99962792e-01, 3.72078342e-05],
-       [9.99995143e-01, 4.85663936e-06],
-       [9.99019994e-01, 9.80005917e-04],
-       [9.99999954e-01, 4.60475555e-08],
-       [9.99999849e-01, 1.51231326e-07],
-       [9.99989807e-01, 1.01931993e-05],
-       [9.99999258e-01, 7.41638109e-07],
-       [9.99982475e-01, 1.75247060e-05],
-       [9.99998157e-01, 1.84337155e-06],
-       [9.99999999e-01, 1.46897678e-09],
-       [1.00000000e+00, 9.33663457e-11],
-       [9.99999984e-01, 1.55857733e-08],
-       [9.99991434e-01, 8.56646445e-06],
-       [9.99998554e-01, 1.44628911e-06],
-       [9.99999914e-01, 8.60231340e-08],
-       [9.99999999e-01, 1.45814210e-09],
-       [9.99998705e-01, 1.29532826e-06],
-       [9.99999984e-01, 1.62078353e-08],
-       [1.00000000e+00, 1.21535274e-18],
-       [9.99999999e-01, 1.30815699e-09],
-       [9.97678984e-01, 2.32101587e-03],
-       [9.99999999e-01, 1.07097062e-09],
-       [9.99997915e-01, 2.08499403e-06],
-       [9.99999996e-01, 4.29293224e-09],
-       [1.00000000e+00, 1.51371132e-11],
-       [1.00000000e+00, 1.62545401e-10],
-       [9.99999903e-01, 9.65428203e-08],
-       [9.99999999e-01, 9.00926416e-10],
-       [1.00000000e+00, 4.91618136e-13],
-       [1.00000000e+00, 3.81716501e-10],
-       [9.99999999e-01, 8.31078166e-10]])</pre>
+<pre>array([[9.99999972e-01, 2.80218650e-08],
+       [9.97371053e-01, 2.62894687e-03],
+       [9.99999983e-01, 1.65791801e-08],
+       [9.99999198e-01, 8.01597957e-07],
+       [9.97733881e-01, 2.26611868e-03],
+       [9.99476715e-01, 5.23284529e-04],
+       [1.00000000e+00, 5.67816857e-11],
+       [9.99999944e-01, 5.63259856e-08],
+       [9.99999202e-01, 7.98373347e-07],
+       [9.99999991e-01, 8.98339412e-09],
+       [9.99999993e-01, 7.14412263e-09],
+       [9.99999999e-01, 7.20960106e-10],
+       [9.99999990e-01, 9.79199031e-09],
+       [9.99999938e-01, 6.21605991e-08],
+       [9.99999869e-01, 1.30754432e-07],
+       [9.99999999e-01, 7.47173169e-10],
+       [9.99985013e-01, 1.49867177e-05],
+       [9.99999998e-01, 1.76905802e-09],
+       [9.99999962e-01, 3.82747890e-08],
+       [1.00000000e+00, 6.07185145e-13],
+       [9.99999127e-01, 8.72579183e-07],
+       [9.99913754e-01, 8.62462203e-05],
+       [9.99999913e-01, 8.65319842e-08],
+       [9.99999983e-01, 1.73070999e-08],
+       [9.99999986e-01, 1.39271511e-08],
+       [9.99999892e-01, 1.07590678e-07],
+       [9.88421571e-01, 1.15784293e-02],
+       [9.99999964e-01, 3.59867788e-08],
+       [9.99999663e-01, 3.37265939e-07],
+       [9.99999985e-01, 1.49309649e-08],
+       [9.99999572e-01, 4.27887629e-07],
+       [9.59783355e-01, 4.02166454e-02],
+       [9.97050613e-01, 2.94938667e-03],
+       [9.99999961e-01, 3.91009276e-08],
+       [1.00000000e+00, 9.10492798e-13],
+       [9.99999878e-01, 1.22356081e-07],
+       [9.99965215e-01, 3.47851055e-05],
+       [1.00000000e+00, 7.48456732e-11],
+       [9.99993642e-01, 6.35809155e-06],
+       [9.99999986e-01, 1.39305840e-08],
+       [9.99994125e-01, 5.87501848e-06],
+       [1.00000000e+00, 4.47041114e-12],
+       [9.99987397e-01, 1.26034971e-05],
+       [1.00000000e+00, 1.11335739e-12],
+       [9.99998851e-01, 1.14868081e-06],
+       [9.99999993e-01, 6.87674223e-09],
+       [9.99999998e-01, 2.02409122e-09],
+       [9.99998894e-01, 1.10599962e-06],
+       [9.99996332e-01, 3.66762392e-06],
+       [9.99999995e-01, 5.14285315e-09],
+       [9.99999997e-01, 3.22461769e-09],
+       [9.99999402e-01, 5.97516589e-07],
+       [9.99989099e-01, 1.09005786e-05],
+       [9.99971098e-01, 2.89020294e-05],
+       [9.99896801e-01, 1.03198835e-04],
+       [9.99999920e-01, 8.00432335e-08],
+       [9.99999660e-01, 3.39700553e-07],
+       [9.99619582e-01, 3.80418356e-04],
+       [1.00000000e+00, 7.35290604e-15],
+       [1.00000000e+00, 7.35528489e-12],
+       [9.99979356e-01, 2.06439507e-05],
+       [9.99998913e-01, 1.08707283e-06],
+       [9.99999998e-01, 2.07980454e-09],
+       [1.00000000e+00, 2.57652463e-10],
+       [9.99997782e-01, 2.21792869e-06],
+       [9.99999971e-01, 2.94073784e-08],
+       [1.00000000e+00, 1.84888247e-13],
+       [9.99999997e-01, 3.30709327e-09],
+       [9.99999989e-01, 1.07981319e-08],
+       [9.99999995e-01, 5.15835688e-09],
+       [9.99999998e-01, 2.09368217e-09],
+       [9.99675433e-01, 3.24567488e-04],
+       [9.99896928e-01, 1.03071596e-04],
+       [9.99996710e-01, 3.29020892e-06],
+       [9.99999998e-01, 1.59474924e-09],
+       [1.00000000e+00, 6.52173363e-11],
+       [9.99999934e-01, 6.63339570e-08],
+       [9.99999995e-01, 4.77295676e-09],
+       [9.99998473e-01, 1.52695122e-06],
+       [9.99999388e-01, 6.12160297e-07],
+       [1.00000000e+00, 1.86621547e-11],
+       [9.99999811e-01, 1.88552843e-07],
+       [9.99999978e-01, 2.21031636e-08],
+       [9.99999952e-01, 4.83580056e-08],
+       [1.00000000e+00, 2.18167492e-10],
+       [1.00000000e+00, 2.38769747e-10],
+       [9.99999747e-01, 2.53122619e-07],
+       [9.99999963e-01, 3.66072857e-08],
+       [9.99997640e-01, 2.36039863e-06],
+       [9.99999897e-01, 1.02749511e-07],
+       [9.99999963e-01, 3.71438255e-08],
+       [9.99999920e-01, 7.95790592e-08],
+       [9.98109261e-01, 1.89073896e-03],
+       [9.99999987e-01, 1.29753444e-08],
+       [9.99999994e-01, 6.49605132e-09],
+       [9.99979095e-01, 2.09052371e-05],
+       [9.99999619e-01, 3.80542622e-07],
+       [9.99962290e-01, 3.77098388e-05],
+       [9.99999929e-01, 7.09338253e-08],
+       [1.00000000e+00, 9.39713822e-12],
+       [2.57839929e-10, 1.00000000e+00],
+       [7.10030580e-10, 9.99999999e-01],
+       [7.77263991e-05, 9.99922274e-01],
+       [4.87672154e-07, 9.99999512e-01],
+       [1.06497653e-13, 1.00000000e+00],
+       [1.39125574e-09, 9.99999999e-01],
+       [1.45855962e-07, 9.99999854e-01],
+       [1.15844233e-10, 1.00000000e+00],
+       [1.30885221e-07, 9.99999869e-01],
+       [4.01342547e-03, 9.95986575e-01],
+       [2.23846844e-06, 9.99997762e-01],
+       [4.80096836e-12, 1.00000000e+00],
+       [2.53902784e-07, 9.99999746e-01],
+       [1.33699810e-06, 9.99998663e-01],
+       [9.26144795e-13, 1.00000000e+00],
+       [6.63946614e-09, 9.99999993e-01],
+       [4.74685878e-05, 9.99952531e-01],
+       [7.80325429e-12, 1.00000000e+00],
+       [4.09353206e-09, 9.99999996e-01],
+       [1.03403537e-07, 9.99999897e-01],
+       [7.36491730e-11, 1.00000000e+00],
+       [1.61149398e-08, 9.99999984e-01],
+       [3.57696778e-09, 9.99999996e-01],
+       [4.07324020e-10, 1.00000000e+00],
+       [8.32553012e-08, 9.99999917e-01],
+       [2.49562814e-04, 9.99750437e-01],
+       [1.06010371e-12, 1.00000000e+00],
+       [2.00498829e-08, 9.99999980e-01],
+       [8.40632056e-13, 1.00000000e+00],
+       [8.50063744e-10, 9.99999999e-01],
+       [2.44062509e-07, 9.99999756e-01],
+       [2.30363365e-08, 9.99999977e-01],
+       [1.54354318e-12, 1.00000000e+00],
+       [8.33215085e-06, 9.99991668e-01],
+       [1.17876940e-09, 9.99999999e-01],
+       [5.30530954e-09, 9.99999995e-01],
+       [5.99631715e-05, 9.99940037e-01],
+       [5.46127020e-10, 9.99999999e-01],
+       [1.51642669e-05, 9.99984836e-01],
+       [3.05980804e-07, 9.99999694e-01],
+       [1.02057016e-05, 9.99989794e-01],
+       [9.14538689e-06, 9.99990855e-01],
+       [1.00902475e-02, 9.89909752e-01],
+       [8.56886241e-08, 9.99999914e-01],
+       [8.12302937e-06, 9.99991877e-01],
+       [5.16071738e-06, 9.99994839e-01],
+       [3.19395709e-06, 9.99996806e-01],
+       [2.09877679e-08, 9.99999979e-01],
+       [3.56352670e-07, 9.99999644e-01],
+       [8.71899847e-10, 9.99999999e-01],
+       [1.41279230e-06, 9.99998587e-01],
+       [2.36027283e-05, 9.99976397e-01],
+       [6.41034443e-01, 3.58965557e-01],
+       [5.23253972e-09, 9.99999995e-01],
+       [1.32300243e-03, 9.98676998e-01],
+       [9.08053107e-11, 1.00000000e+00],
+       [6.73462148e-06, 9.99993265e-01],
+       [1.35862410e-05, 9.99986414e-01],
+       [1.55411117e-09, 9.99999998e-01],
+       [1.78898163e-08, 9.99999982e-01],
+       [5.56246657e-07, 9.99999444e-01],
+       [2.15857223e-04, 9.99784143e-01],
+       [3.36432353e-07, 9.99999664e-01],
+       [3.31609686e-07, 9.99999668e-01],
+       [6.36769143e-08, 9.99999936e-01],
+       [3.22594193e-10, 1.00000000e+00],
+       [6.34359329e-08, 9.99999937e-01],
+       [1.98389286e-07, 9.99999802e-01],
+       [2.74824322e-08, 9.99999973e-01],
+       [3.03502827e-09, 9.99999997e-01],
+       [3.03011961e-07, 9.99999697e-01],
+       [5.11191743e-09, 9.99999995e-01],
+       [3.98535732e-04, 9.99601464e-01],
+       [1.06161725e-06, 9.99998938e-01],
+       [3.34384016e-06, 9.99996656e-01],
+       [6.93024425e-10, 9.99999999e-01],
+       [3.38301508e-08, 9.99999966e-01],
+       [2.04188713e-01, 7.95811287e-01],
+       [4.71264963e-07, 9.99999529e-01],
+       [1.91537294e-10, 1.00000000e+00],
+       [6.60530787e-06, 9.99993395e-01],
+       [1.36686530e-12, 1.00000000e+00],
+       [1.24327968e-05, 9.99987567e-01],
+       [3.92591447e-06, 9.99996074e-01],
+       [2.39191117e-12, 1.00000000e+00],
+       [5.18414949e-10, 9.99999999e-01],
+       [6.89257801e-15, 1.00000000e+00],
+       [4.46495438e-06, 9.99995535e-01],
+       [2.60311464e-04, 9.99739689e-01],
+       [3.14866310e-09, 9.99999997e-01],
+       [5.24164837e-08, 9.99999948e-01],
+       [1.59225146e-08, 9.99999984e-01],
+       [3.06876781e-14, 1.00000000e+00],
+       [4.60126666e-11, 1.00000000e+00],
+       [1.57673959e-10, 1.00000000e+00],
+       [1.62251036e-08, 9.99999984e-01],
+       [1.77302902e-15, 1.00000000e+00],
+       [7.44778750e-12, 1.00000000e+00],
+       [6.25496083e-09, 9.99999994e-01],
+       [3.59014236e-08, 9.99999964e-01]])</pre>
 </div>
 
 </div>
@@ -13274,7 +13652,7 @@ $$</li>
 </div>
 </div>
 
-</div></section></section>
+</div>
 </div>
 </div>
 
