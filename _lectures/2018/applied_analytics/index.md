@@ -69,3 +69,8 @@ permalink: /lectures/2018/applied_analytics
 <center>
 <iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="596"  mozallowfullscreen="true" src="/lectures/2018/applied_analytics/6/main.html" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="800"></iframe>
 </center>
+
+# 第9,10,11回（混合モデル、EMアルゴリズム）
+<center>
+<iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="596"  mozallowfullscreen="true" src="/lectures/2018/applied_analytics/7/main.html" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="800"></iframe>
+</center>
