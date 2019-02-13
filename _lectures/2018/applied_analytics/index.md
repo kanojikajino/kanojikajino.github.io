@@ -34,7 +34,7 @@ permalink: /lectures/2018/applied_analytics
    - 特に、上で挙げた原因を解決した講義資料としてください
    - 良い例）「はじめに、入力チェックなどのない書き方で正規分布のクラスを書く。それを理解させた上で入力チェックの説明をする。」という内容の講義資料
 
-[レポート講評](report_summary)
+[レポート講評](/lectures/2018/applied_analytics/report_summary)
 
 
 # 講義資料
