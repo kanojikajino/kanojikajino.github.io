@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "俺流、機械学習系の論文の書き方"
+description: "論文の書き方を簡単にまとめました"
 date:   2018-06-15 01:02:00 +0900
-categories: how-to-research
+tags: [research]
 ---
 
 

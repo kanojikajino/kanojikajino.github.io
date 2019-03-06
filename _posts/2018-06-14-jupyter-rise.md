@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Jupyter notebook + RISE で講義をする"
+description: "Jupyter notebook でプレゼンをする方法を紹介します"
 date:   2018-06-13 01:17:42 +0900
-categories: software
+tags: [software, python, jupyter notebook, rise]
+share: true
 ---
 
 ## モチベーション

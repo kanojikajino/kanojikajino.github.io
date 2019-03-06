@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "「化学構造式のためのハイパーグラフ文法」を発表した（JSAI2018）"
+description: "化学構造式を生成するための文脈自由文法を作りました"
 date:   2018-06-19 01:11:00 +0900
-categories: my-research
+tags: [research, cheminformatics, generative model, graph generation, grammar]
 ---
 
 2018年度人工知能学会全国大会で「[化学構造式のためのハイパーグラフ文法](https://confit.atlas.jp/guide/event-img/jsai2018/3E1-04/public/pdf?type=in)」という論文 [1] の発表を行った。
