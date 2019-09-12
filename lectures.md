@@ -7,3 +7,6 @@ permalink: /lectures/
 
 # 2018年
 [応用計量分析2](2018/applied_analytics)
+
+# 2019年
+[応用計量分析2](2019/applied_analytics)
