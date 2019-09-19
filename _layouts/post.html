@@ -6,10 +6,9 @@ layout: default
     <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
   </div>
 </header>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]], displayMath: [['$$','$$'], ["\\[","\\]"]] } });
-</script>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+{% include mathjax.html %}
+
 <div class="post">
   <div class="post-title">{{ page.title }}</div>
   <span class="post-date">

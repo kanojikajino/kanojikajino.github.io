@@ -2,6 +2,7 @@
 layout: page
 title:  "応用計量分析2 (2019)"
 date:   2019-09-12 00:00:00 +0900
+mathjax: true
 permalink: /lectures/2019/applied_analytics
 ---
 
