@@ -17,6 +17,8 @@ permalink: /lectures/2019/applied_analytics
 
 [第3回（Python の基本）](/lectures/2019/applied_analytics/3.pdf)
 
+[第4回（線形代数）](/lectures/2019/applied_analytics/4.pdf)
+
 
 # 講義で話した内容
 
@@ -98,3 +100,15 @@ permalink: /lectures/2019/applied_analytics
 	  if x == 0:
 		  print("x is equal to zero.")
 	  ```
+
+## 2019年10月4日
+
+### 概要
+
+- Python でプログラミングの基本
+  - 制御構文
+	- if 文、for 文、 while 文を取り扱った
+	- FizzBuzz ができるようになった
+  - 関数の定義ができるようになった
+	- `f(x)` という関数があった時、 `f` は関数名をあらわし、 `x` は引数に相当する
+	- よく使う機能は関数にしておくと簡単に使い回しできて嬉しい
