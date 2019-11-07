@@ -6,6 +6,8 @@ mathjax: true
 permalink: /lectures/2019/applied_analytics
 ---
 
+# お知らせ
+2020年1月10日は同時間に講義実施予定。ただし講義ではなくレポート課題の質問を受け付ける会にする予定なので、レポートに不安がある方はきてください。
 
 # 講義資料
 講義で使用した Jupyter notebook は [ここ](https://github.com/kanojikajino/lecture) にあります。
