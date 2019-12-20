@@ -76,6 +76,9 @@ permalink: /lectures/2019/applied_analytics
 [第6回（混合分布モデル）](/lectures/2019/applied_analytics/6.pdf)
 - 途中見切れるところがあるので、その箇所は[こちら](/lectures/2019/applied_analytics/6.html)を参照ください
 
+[第7回（トピックモデル）](/lectures/2019/applied_analytics/7.pdf)
+- 途中見切れるところがあるので、その箇所は[こちら](/lectures/2019/applied_analytics/7.html)を参照ください
+
 # 講義で話した内容
 
 ## 2019年9月13日
