@@ -7,7 +7,8 @@ permalink: /lectures/2019/applied_analytics
 ---
 
 # お知らせ
-2020年1月10日は同時間に講義実施予定。ただし講義ではなくレポート課題の質問を受け付ける会にする予定なので、レポートに不安がある方はきてください。
+- 2020年1月10日は同時間に講義実施予定。ただし講義ではなくレポート課題の質問を受け付ける会にする予定なので、レポートに不安がある方はきてください。
+- [レポート講評](/lectures/2019/applied_analytics/report_summary)
 
 # レポート課題
 - 提出期限: 2020年1月17日 23:59 (JST)（遅れたレポートは受け付けません）
@@ -59,26 +60,25 @@ permalink: /lectures/2019/applied_analytics
   - 他の受講者のを写す、またはWebで拾った資料を提出するなどの不正行為が判明した場合は「不可」とします
 	- 厳しく見るわけではないので、自分でやってみてください
 
-
 # 講義資料
 講義で使用した Jupyter notebook は [ここ](https://github.com/kanojikajino/lecture) にあります。
 以下のスライドでコードが見切れていたりする場合は上記サイトを参照ください。
 
-[第1回（自己紹介、講義の概要、Pythonの準備）](/lectures/2019/applied_analytics/1.pdf)
+[第1章（自己紹介、講義の概要、Pythonの準備）](/lectures/2019/applied_analytics/1.pdf)
 
-[第2回（機械学習・人工知能概論）](/lectures/2019/applied_analytics/2.pdf)
+[第2章（機械学習・人工知能概論）](/lectures/2019/applied_analytics/2.pdf)
 
-[第3回（Python の基本）](/lectures/2019/applied_analytics/3.pdf)
+[第3章（Python の基本）](/lectures/2019/applied_analytics/3.pdf)
 
-[第4回（線形代数）](/lectures/2019/applied_analytics/4.pdf)
+[第4章（線形代数）](/lectures/2019/applied_analytics/4.pdf)
 
-[第5回（確率・統計）](/lectures/2019/applied_analytics/5.pdf)
+[第5章（確率・統計）](/lectures/2019/applied_analytics/5.pdf)
 - 途中見切れるところがあるので、その箇所は[こちら](/lectures/2019/applied_analytics/5.html)を参照ください
 
-[第6回（混合分布モデル）](/lectures/2019/applied_analytics/6.pdf)
+[第6章（混合分布モデル）](/lectures/2019/applied_analytics/6.pdf)
 - 途中見切れるところがあるので、その箇所は[こちら](/lectures/2019/applied_analytics/6.html)を参照ください
 
-[第7回（トピックモデル）](/lectures/2019/applied_analytics/7.pdf)
+[第7章（トピックモデル）](/lectures/2019/applied_analytics/7.pdf)
 - 途中見切れるところがあるので、その箇所は[こちら](/lectures/2019/applied_analytics/7.html)を参照ください
 
 # 講義で話した内容
@@ -383,3 +383,10 @@ permalink: /lectures/2019/applied_analytics
 	- M-step を実行する関数 `m_step`
 	- `fit` の中に全部まとめて書けるが、 `e_step`, `m_step` と分けておくと見やすい＆便利なことも多い
   
+## 2019年12月20日
+
+### 概要
+
+- トピックモデルの紹介
+- トピックモデルの Inference アルゴリズムの紹介（隠れ状態の推定）
+- トピックモデルの学習アルゴリズムの紹介
