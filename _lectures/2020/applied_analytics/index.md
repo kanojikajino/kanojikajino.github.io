@@ -10,10 +10,19 @@ permalink: /lectures/2020/applied_analytics
 
 # 講義資料
 講義で使用した Jupyter notebook は [ここ](https://github.com/kanojikajino/lecture) にあります。
+以下のスライドでコードが見切れていたりする場合は上記サイトを参照ください。
+
+[第1章（自己紹介、講義の概要、Pythonの準備）](/lectures/2020/applied_analytics/1.pdf)
 
 # 講義で使用するもの
 
-## GitHub, GitHub Classroom
+## GitHub
+
+- 質問はなるべく[こちら](https://github.com/kanojikajino/lecture/issues)でお願いします
+- 他の人の質問もみることができるので、似たような質問がないかまず探してみてください（Closed と書いてあるところもみてみてください）
+- 使うのが難しい場合は hiroshi.kajino.1989 [あっと]ジ〜メール にメールください
+
+## GitHub Classroom
 
 GitHub はソフトウェア開発プラットフォームで、 GitHub Classroom はプログラミングの講義を支援するプラットフォームです。
 本講義ではプログラミングの理解度を測るために、講義中に GitHub Classroom を用いて演習を行います。
