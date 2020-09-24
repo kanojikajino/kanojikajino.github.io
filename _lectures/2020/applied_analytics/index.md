@@ -13,6 +13,7 @@ permalink: /lectures/2020/applied_analytics
 以下のスライドでコードが見切れていたりする場合は上記サイトを参照ください。
 
 [第1章（自己紹介、講義の概要、Pythonの準備）](/lectures/2020/applied_analytics/1.pdf)
+[第2章（機械学習・人工知能概論）](/lectures/2020/applied_analytics/2.pdf)
 
 # 講義で使用するもの
 
