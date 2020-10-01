@@ -30,7 +30,7 @@ GitHub はソフトウェア開発プラットフォームで、 GitHub Classroo
 
 - [このガイド](/lectures/2020/applied_analytics/github_classroom)にしたがって GitHub Classroom のセットアップを行ってください。
 - [このガイド](/lectures/2020/applied_analytics/github_assignment)にしたがって GitHub Classroom での課題提出を行ってください。
-
+- 既知のトラブルは[このページ](/lectures/2020/applied_analytics/troubleshooting)にまとめました
 
 # 講義で話した内容
 
