@@ -6,6 +6,19 @@ mathjax: true
 permalink: /lectures/2020/applied_analytics/troubleshooting
 ---
 
+# Tips
+
+## "Work in Repl.it" ボタンをつけるには？
+
+課題招待リンクを使って課題を accept する際に下図のような画面になる。
+このとき、赤枠で囲った update と書いてあるリンクをクリックすると "Work in Repl.it" ボタンが追加される。
+
+![Work in Repl.it ボタン](troubleshooting_img/add_badge.png)
+
+追加する機会を逃した場合は下の A1 参照。
+
+# FAQ
+
 ## Q1. 課題をアクセプトした後に表示されるレポジトリの画面で Repl.it のボタンがない
 
 A1. 以下の画像のような状況でしょうか？
