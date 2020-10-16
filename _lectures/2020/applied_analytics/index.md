@@ -15,7 +15,7 @@ permalink: /lectures/2020/applied_analytics
 - [第1章（自己紹介、講義の概要、Pythonの準備）](/lectures/2020/applied_analytics/1.pdf)
 - [第2章（機械学習・人工知能概論）](/lectures/2020/applied_analytics/2.pdf)
 - [第3章（Python 基礎）](/lectures/2020/applied_analytics/3.pdf)
-- [第4章（線形代数）](/lectures/2020/applied_analytics/4.pdf)
+- [第4章（線形代数）](/lectures/2020/applied_analytics/4.pdf) (Oct 16 更新)
 
 # 講義で使用するもの
 
