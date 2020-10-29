@@ -16,6 +16,7 @@ permalink: /lectures/2020/applied_analytics
 - [第2章（機械学習・人工知能概論）](/lectures/2020/applied_analytics/2.pdf)
 - [第3章（Python 基礎）](/lectures/2020/applied_analytics/3.pdf)
 - [第4章（線形代数）](/lectures/2020/applied_analytics/4.pdf) (Oct 16, Oct 23 更新)
+- [第5章（確率・統計）](/lectures/2020/applied_analytics/5.pdf)
 
 # 講義で使用するもの
 
@@ -33,21 +34,3 @@ GitHub はソフトウェア開発プラットフォームで、 GitHub Classroo
 - [このガイド](/lectures/2020/applied_analytics/github_classroom)にしたがって GitHub Classroom のセットアップを行ってください。
 - [このガイド](/lectures/2020/applied_analytics/github_assignment)にしたがって GitHub Classroom での課題提出を行ってください。
 - 既知のトラブルは[このページ](/lectures/2020/applied_analytics/troubleshooting)にまとめました
-
-# 講義で話した内容
-
-## 第1章
-- 教師なし学習についてやります
-- Python での実装含めやります
-- GitHub Classroom を用いて理解度確認テストをやります。期末レポートでボーダーの人を救済するのが主な目的で、やってもやらなくても減点になることはありません。
-
-## 第2章
-- 機械学習の歴史
-- 機械学習の定式化
-- 最尤推定
-
-## 第3章
-- Repl.it での Python のはじめ方
-- 四則演算
-- 関数の定義の仕方、使い方
-- 演習3.1までやった
