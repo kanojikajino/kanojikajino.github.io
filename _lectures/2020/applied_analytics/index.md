@@ -17,6 +17,7 @@ permalink: /lectures/2020/applied_analytics
 - [第3章（Python 基礎）](/lectures/2020/applied_analytics/3.pdf)
 - [第4章（線形代数）](/lectures/2020/applied_analytics/4.pdf) (Oct 16, Oct 23 更新)
 - [第5章（確率・統計）](/lectures/2020/applied_analytics/5.pdf)
+- [第6章（混合分布モデル）](/lectures/2020/applied_analytics/6.pdf)
 
 # 講義で使用するもの
 
