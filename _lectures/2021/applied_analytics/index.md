@@ -8,6 +8,8 @@ permalink: /lectures/2021/applied_analytics
 
 # お知らせ
 - 2021年度は全てオンラインのみで講義を実施します。LETUS に zoom のリンクがあるので、そちらから講義に参加してください。
+- メールでの連絡先:  hiroshi.kajino.1989 [あっと]ジ〜メール
+
 
 # 講義資料
 講義で使用した Jupyter notebook は [ここ](https://github.com/kanojikajino/lecture) にあります。
@@ -27,7 +29,6 @@ permalink: /lectures/2021/applied_analytics
 
 - 質問はなるべく[こちら](https://github.com/kanojikajino/lecture/issues)でお願いします
 - 他の人の質問もみることができるので、似たような質問がないかまず探してみてください（Closed と書いてあるところもみてみてください）
-- 使うのが難しい場合は hiroshi.kajino.1989 [あっと]ジ〜メール にメールください
 
 ## GitHub Classroom
 
