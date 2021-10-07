@@ -8,16 +8,39 @@ permalink: /lectures/2021/applied_analytics/github_classroom
 
 本講義では GitHub Classroom を活用してプログラミングの理解度チェックを行います。その際に以下のツールを利用します:
 
+1. Python: プログラミング言語
+1. Git: プログラムのバージョン管理ツール
 1. GitHub: ソフトウェア開発プラットフォーム
-2. GitHub Classroom: プログラミング授業の支援プラットフォーム
-3. Visual Studio Code (VSCode: プログラミングを行うためのソフトウェア
+1. GitHub Classroom: プログラミング授業の支援プラットフォーム
+1. Visual Studio Code (VSCode: プログラミングを行うためのソフトウェア
 
 本稿では VSCode をインストールし、 GitHub のアカウントを作り、そのアカウントと GitHub Classroom とを連携させプログラミング演習を行う準備を整えることを目標とします。
+
+# Python のセットアップ
+- https://www.python.org/ の Downloads から最新版をダウンロードする（2021/10/7時点では3.10.0）
+- Windows の場合、インストール時に "Add Python 3.10 to PATH" にチェックマークをつける
+![python install](python/install.png)
+
+# Git のセットアップ
+- https://git-scm.com の Downloads から自分のOSに合わせてダウンロードする
+- 標準でインストールして大丈夫だと思います
 
 # VSCode のセットアップ
 
 - Visual Studio Code のWebページを開く [https://code.visualstudio.com](https://code.visualstudio.com)
 - サイトの右上にダウンロードページへのリンクがあるのでそれを開き、自分の使っているパソコンのOSに合わせてダウンロード・インストールを行う
+- 最後にVSCode上でGitを使うための設定をします。まずVSCode を起動し、上のメニューバーから Terminal > New Terminal を選択し、ターミナルを起動する（ターミナルとは文字ベースでパソコンを操作するための機能です）
+![terminal](account/vscode/terminal.png)
+- 下の図のように
+```bash
+git config --global user.name "自分の名前"
+```
+と打ち、エンターを押し、
+```bash
+git config --global user.email "自分のメールアドレス"
+```
+と打ち、エンターを押す。ここで "自分の名前"、 "自分のメールアドレス" はそれぞれ自分の名前とアドレスに変更してください。私の場合は下図を参照ください。
+![git](account/vscode/git.png)
 
 
 # GitHub のアカウント（アカウントを持っていない場合）
@@ -53,10 +76,11 @@ Identifiers には学籍番号が並んでいるので、自分の番号を探�
 ![finally](account/classroom/finally.png)
 
 
-# VSCode を使った課題の取り組み方
+# VSCode を使った課題の取り組み方1
 ここまでで GitHub Classroom を使うことができるようになりました。
 以降、 VSCode を用いて課題に取り組む環境を整える方法を紹介します。
 以下、英語版の画面ですが、日本語版でも同様の画面遷移すると思います。
+__以下の画面のように遷移しない場合、途中で止まる場合は下の方にある "VSCode を使った課題の取り組み方2" を試してみてください。__
 
 まず以下の図のように課題ページで "Open in Visual Studio Code" と書いてあるボタンを押します。
 ![init](account/vscode/init.png)
@@ -83,3 +107,19 @@ VSCode がインストールしてあれば（色々初期設定を経たのち�
 最終的に課題の画面が出てきたら成功です。
 出てこない場合は課題ページの "Open in Visual Studio Code" というボタンを押すところからもう一度やるとうまくいくことがあります。
 ![finally](account/vscode/finally.png)
+
+
+# VSCode を使った課題の取り組み方2
+Windows では "Open in Visual Studio Code" ボタンがうまく機能しないことが確認されています。以下、そのボタンを用いない方法を紹介します。
+途中で Authorize や Plug-in のインストールが求められた場合には適宜承認・インストールを行ってください。
+
+下図のように課題ページの Code ボタンをクリックし、アドレスの横にあるボタンをクリックして課題の情報をコピーしてください。
+これは課題のURLとは異なり、課題のコードの保存場所（レポジトリと呼びます）のアドレスに対応しています。
+![1](windows/1.png)
+
+VSCode を開き、下図の順番でボタンをクリックし、出てきたテキストボックスに先ほどコピーしたものをペーストしてください。
+エンターを押すと、コードの保存場所を聞かれるので適当に選びます。
+![2](windows/2.png)
+
+最終的に下図のようになったら成功です。 Open を押して課題を開いてください。
+![3](windows/3.png)

@@ -18,12 +18,13 @@ permalink: /lectures/2021/applied_analytics/github_assignment
 ![アクセプト中](assignment/during-accept.png)
 
 リロードをすると以下の画面に遷移します。
-下図の赤い四角で囲ってあるところをクリックすると VSStudio で課題が開きます。
+下図の赤い四角で囲ってあるところをクリックすると VSCode で課題が開きます。
 またその上に記載されているURLが自分の課題のあるURLになります（それぞれの学生で異なるURLとなります）。
+__準備段階でこのボタンが機能しなかった場合は、その時と同じように課題をダウンロードしてください。__
 ![アクセプト](assignment/after_accept.png)
 
-## VSStudio の操作方法
-ここでは VSStudio での課題の取り組み方と課題提出方法を紹介します。
+## VSCode の操作方法
+ここでは VSCode での課題の取り組み方と課題提出方法を紹介します。
 
 "Open in Visual Studio Code" を開くと Visual Studio Code が開き、(Macの場合)下図のような画面に移ります。 Open を選びます。
 ![allow_open](assignment/allow_open.png)
@@ -68,7 +69,7 @@ Hello world の課題では、 "Hello!" と書かれている箇所を "Hello wo
 ![課題提出](assignment/submit-commit.png)
 
 最後に、課題が正しく提出されたか＆正しく評価されたか確認をします。
-まず課題URLから Github のページを開きます（上の方で VSStudio で課題を開くステップで出てきたURLを使います）。
+まず課題URLから Github のページを開きます（上の方で VSCode で課題を開くステップで出てきたURLを使います）。
 ![GitHub](assignment/to-confirm.png)
 
 下図の赤枠で採点結果を見ることができます。
