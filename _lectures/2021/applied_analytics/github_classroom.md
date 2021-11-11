@@ -46,7 +46,15 @@ git config --global user.email "自分のメールアドレス"
 ```bash
 pip install numpy
 ```
+もしくは
+```bash
+python -m pip install numpy
+```
 と打ち、エンターを押し、インストールが完了した旨のメッセージが出れば成功。
+
+エラーが出る場合、[このページ](https://www.out48.com/archives/5720/)のように
+Windowsの設定 >  アプリと機能 >  アプリ実行エイリアスと辿って、
+python.exe と python3.exe をオフにしてから再度インストールしてみてください。
 
 
 # GitHub のアカウント（アカウントを持っていない場合）
